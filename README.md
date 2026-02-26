@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🥚 Hobby Farm Eggs — Website
+
+A modern, full-featured website for a small hobby farm selling fresh eggs and farm products. Built with Next.js 16 and deployed via Cloudflare Pages.
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| [Next.js 16](https://nextjs.org) | React framework (App Router) |
+| [React 19](https://react.dev) | UI library |
+| [Tailwind CSS v4](https://tailwindcss.com) | Styling |
+| [Lucide React](https://lucide.dev) | Icons |
+| [Embla Carousel](https://www.embla-carousel.com) | Testimonial carousel |
+| [Cloudflare Pages](https://pages.cloudflare.com) | Hosting & deployment |
+
+---
+
+## Pages
+
+| Route | Description |
+|---|---|
+| `/` | Homepage — hero, features, products, testimonials, CTA |
+| `/shop` | Product listings with filtering and cart |
+| `/gallery` | Photo gallery of the farm |
+| `/blog` | Blog posts with categories and search |
+| `/about` | Farm story, practices, and flock info |
+| `/donate` | Donation page with progress tracking |
+| `/faq` | FAQ accordion with category filters |
+| `/contact` | Contact form and farm info |
+| `/policies` | Farm policies |
+
+---
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Building for Production
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+This project is deployed to **Cloudflare Pages**. Push to the connected Git branch to trigger an automatic deployment.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> **Note:** The site name "Clucky Acres" used in development is a placeholder for the real farm name kept private.
